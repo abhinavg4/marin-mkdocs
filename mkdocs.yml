@@ -11,7 +11,12 @@ theme:
     - search.suggest
     - content.code.annotation
     - content.code.copy
+  custom_dir: docs/overrides
 
+
+# Include extra JS to setup Read the Docs addons integrations
+extra_javascript:
+  - javascripts/readthedocs.js
 
 nav:
   - Home: index.md
