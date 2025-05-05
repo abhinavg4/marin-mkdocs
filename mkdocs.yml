@@ -56,8 +56,7 @@ plugins:
       default_handler: python
       handlers:
         python:
-          selection:
+          options:
             docstring_style: google
-          rendering:
             show_source: true
             show_root_heading: true
